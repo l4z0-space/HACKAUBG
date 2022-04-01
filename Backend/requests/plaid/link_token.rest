@@ -1,0 +1,7 @@
+POST http://localhost:3000/plaid/link 
+Content-Type: application/json 
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaXJzdF9uYW1lIjoiVGVzdCIsImxhc3RfbmFtZSI6Ikxhc3QiLCJlbWFpbCI6ImlAaS5jb20iLCJpZCI6IjYyNDc2N2M0NmM4NWM2NWVlZjdiNGNhZiIsImlhdCI6MTY0ODg1MDE0N30.2sjrsSoIHa1D64i9cnuUbWw1fP1N7IXaIySXgrsyqwY
+
+{}
+
+
