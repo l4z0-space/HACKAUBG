@@ -1,17 +1,20 @@
 const bcrypt = require('bcrypt')
+const jwt = require('jsonwebtoken')
 const userRouter = require('express').Router()
 const { request, response } = require('express')
 const User = require('../models/user')
 
-
 userRouter.post('/api/users', async (request, response) => {
-  const info = request.body
+  // expects: {first_name, last_name, email, password}
+
+  const body = request.body
   const saltRounds = 10
-  const passwordHash = await bcrypt.hash(info.password, saltRounds)
+  const passwordHash = await bcrypt.hash(body.password, saltRounds)
 
   const user = new User({
-    username: info.username,
-    name: info.name,
+    email: body.email,
+    first_name: body.first_name,
+    last_name: body.last_name,
     passwordHash,
   })
 
@@ -19,15 +22,18 @@ userRouter.post('/api/users', async (request, response) => {
   response.json(createdUser)
 })
 
-userRouter.get('/api/users', async (request, response) => {
+userRouter.get('/api/users', async (request, response) => { 
+  // List of all users
   const allUsers = await User.find({}).populate('blogs',{ title:1 })
   response.json(allUsers)
 })
 
 userRouter.post('/api/login', async (request, response) => {
+    // Expects: {email, password}
+
     const body = request.body
     // Finds the user in the database
-    const user = await User.findOne({ username: body.username })
+    const user = await User.findOne({ email: body.email })
     // Checks if password is correct
     const passCorrect = user === null
       ? false
@@ -35,11 +41,13 @@ userRouter.post('/api/login', async (request, response) => {
   
     if(! (user && passCorrect) ){
       return response.status(401).json({
-        error: 'invalid username or password'
+        error: 'invalid email or password'
       })
     }
     const userForToken = {
-      username: user.username,
+      first_name: user.first_name,
+      last_name: user.last_name,
+      email: user.email,
       id: user._id,
     }
   
@@ -47,7 +55,12 @@ userRouter.post('/api/login', async (request, response) => {
   
     response
       .status(200)
-      .send({ token, username: user.username, name: user.name })
+      .send({ 
+          token, 
+          email: user.email, 
+          first_name: user.first_name,
+          last_name: user.last_name,
+      })
   
 })
 
