@@ -1,15 +1,24 @@
 package com.example.app;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
-
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
+import android.security.keystore.KeyGenParameterSpec;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -23,32 +32,56 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.nio.charset.StandardCharsets;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button loginBtn;
     private TextView resultTextView;
     private EditText emailField;
+    private EditText passField;
 
-    private
-    RequestQueue requestQueue;
+    private RequestQueue requestQueue;
     private static final String TAG = MainActivity.class.getSimpleName();
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        resultTextView = (TextView) findViewById(R.id.myText);
-        loginBtn = (Button) findViewById(R.id.login);
-        emailField = (EditText) findViewById(R.id.email);
+        if(readFromFile(getApplicationContext()).toString().length() > 10){
+//            File dir = getFilesDir();
+//            File file = new File(dir, "token.txt");
+//            boolean deleted = file.delete();
+            Intent menuIntent = new Intent(this, SecondScreen.class);
+            startActivity(menuIntent);
+        }else {
+            setContentView(R.layout.activity_main);
+            resultTextView = (TextView) findViewById(R.id.myText);
+            loginBtn = (Button) findViewById(R.id.login);
+            emailField = (EditText) findViewById(R.id.email);
+            passField = (EditText) findViewById(R.id.pass);
+            RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
 
-        RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
-        //Click Listner for POST JSONObject
-        loginBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                login("i@i.com","test123");
-            }
-        });
+            resultTextView.setText(readFromFile(getApplicationContext()).toString());
+
+            //Click Listener for POST JSONObject
+            loginBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    login(emailField.getText().toString(), passField.getText().toString());
+                }
+            });
+
+        }
     }
     public void register(String first_name, String last_name, String email, String password) {
         RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
@@ -93,14 +126,24 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONObject response) {
                         resultTextView.setText("String Response : "+ response.toString());
+                        try {
+                            Object accessToken = response.get("token");
+                            resultTextView.setText("Success");
+                            writeToFile(accessToken.toString(),getApplicationContext());
+                            Intent menuIntent = new Intent(getApplicationContext(), SecondScreen.class);
+                            startActivity(menuIntent);
+                        }catch(Exception e){
+                            Toast.makeText(MainActivity.this, "No Token", Toast.LENGTH_SHORT).show();
+                        }
                     }
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                resultTextView.setText("Error getting response");
+                resultTextView.setText("INVALID USERNAME OR PASSWORD");
             }
         });
         requestQueue.add(jsonObjectRequest);
+
     }
     // Get Request For JSONObject
     public void getUsers(){
@@ -126,6 +169,44 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+    private void writeToFile(String data,Context context) {
+        try {
+            OutputStreamWriter outputStreamWriter = new OutputStreamWriter(context.openFileOutput("token.txt", Context.MODE_PRIVATE));
+            outputStreamWriter.write(data);
+            outputStreamWriter.close();
+        }
+        catch (IOException e) {
+            Log.e("Exception", "File write failed: " + e.toString());
+        }
+    }
+    private String readFromFile(Context context) {
 
+        String ret = "";
+
+        try {
+            InputStream inputStream = context.openFileInput("token.txt");
+
+            if ( inputStream != null ) {
+                InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+                BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+                String receiveString = "";
+                StringBuilder stringBuilder = new StringBuilder();
+
+                while ( (receiveString = bufferedReader.readLine()) != null ) {
+                    stringBuilder.append("\n").append(receiveString);
+                }
+
+                inputStream.close();
+                ret = stringBuilder.toString();
+            }
+        }
+        catch (FileNotFoundException e) {
+            Log.e("login activity", "File not found: " + e.toString());
+        } catch (IOException e) {
+            Log.e("login activity", "Can not read file: " + e.toString());
+        }
+
+        return ret;
+    }
 }
 
