@@ -58,8 +58,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     private EditText passField;
-    RequestQueue requestQueue;
-    private static final String TAG = MainActivity.class.getSimpleName();
 
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
