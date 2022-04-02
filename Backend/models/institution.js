@@ -2,11 +2,15 @@ const mongoose = require('mongoose')
 
 const institutionSchema = new mongoose.Schema({
   access_token: String,
-  user_id: String,
+  user_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  },
+  item_id: String,
   name: String,
 })
 
-userSchema.set('toJSON', {
+institutionSchema.set('toJSON', {
   transform: (document, returnedObject) => {
     returnedObject.id = returnedObject._id.toString()
     delete returnedObject._id
@@ -14,5 +18,4 @@ userSchema.set('toJSON', {
   }
 })
 
-userSchema.plugin(uniqueValidator)
 module.exports = mongoose.model('Institution', institutionSchema)

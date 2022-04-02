@@ -10,6 +10,12 @@ const userSchema = new mongoose.Schema({
     unique:true
   },
   passwordHash: String,
+  institutions: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Institution'
+    }
+  ],
 })
 
 userSchema.set('toJSON', {
