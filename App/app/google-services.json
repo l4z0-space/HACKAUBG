@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "483455282632",
+    "project_id": "upfin-a698f",
+    "storage_bucket": "upfin-a698f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483455282632:android:7b0818fb3acb26283fa4fd",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483455282632-7rqcqsqh39di49p5osoelvl3to01deek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvCEDRqO8zCtwbamjcGAU3ck8Odgh7IFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483455282632-7rqcqsqh39di49p5osoelvl3to01deek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

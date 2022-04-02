@@ -42,5 +42,13 @@
             android:layout_height="wrap_content"
             android:text="Login" />
 
+        <EditText
+            android:id="@+id/firebaseTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
