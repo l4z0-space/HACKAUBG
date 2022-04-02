@@ -26,14 +26,15 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="i@i.com" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/pass"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:text="test123" />
 
         <Button
             android:id="@+id/login"
