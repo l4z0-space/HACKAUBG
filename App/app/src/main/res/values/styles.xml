@@ -12,5 +12,16 @@
         <item name="android:indeterminateOnly">false</item>
         <item name="android:progressDrawable">@drawable/circle</item>
     </style>
+    <style name="balance">
+
+        <item name="android:textSize">
+            64sp
+        </item>
+
+        <item name="android:textColor">
+            #0C7489
+        </item>
+
+    </style>
 
 </resources>

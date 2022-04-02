@@ -1,90 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-        <LinearLayout
+    <TextView
+        android:id="@+id/date"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="404dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:id="@+id/helloMessage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Krisi!"
+        tools:layout_editor_absoluteX="404dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/CircularDeterminateProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:layout_marginTop="21dp"
+        android:paddingHorizontal="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dailyLimit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="149dp"
+        android:minHeight="48dp"
+        android:text="@string/daily_limit"
+        android:textAlignment="center"
+        android:textColor="#0C7489"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/center_layout" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/center_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/progress_bar"
+        app:layout_constraintEnd_toEndOf="@id/progress_bar"
+        app:layout_constraintStart_toStartOf="@id/progress_bar"
+        app:layout_constraintTop_toTopOf="@id/progress_bar">
+
+
+        <TextView
+            android:id="@+id/balance"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:orientation="vertical" android:layout_weight="3">
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textAlignment="center"
+            android:textAppearance="@style/balance"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/textView2"
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dollar"
+            android:textColor="#0C7489"
+            android:textSize="32sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-                <ProgressBar
-                    android:id="@+id/progress_bar"
-                    style="@style/CircularDeterminateProgressBar"
-                    android:layout_width="356dp"
-                    android:layout_height="385dp"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginStart="-1dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_marginEnd="0dp"
-                    android:layout_marginBottom="1dp"
-                    app:layout_constraintHorizontal_bias="0.268"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintVertical_bias="0.0"
-                    />
-
-                <TextView
-                    android:id="@+id/balance"
-                    android:layout_width="216dp"
-                    android:layout_height="88dp"
-                    android:layout_alignEnd="@+id/progress_bar"
-                    android:layout_alignBottom="@+id/progress_bar"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="106dp"
-                    android:layout_marginTop="209dp"
-                    android:layout_marginEnd="89dp"
-                    android:layout_marginBottom="139dp"
-                    android:text="TextView"
-                    app:layout_constraintStart_toStartOf="@+id/progress_bar"
-                    app:layout_constraintTop_toTopOf="@+id/progress_bar" />
-
-                <TextView
-                    android:id="@+id/dailyLimit"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="147dp"
-                    android:layout_marginTop="140dp"
-                    android:layout_marginEnd="149dp"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:focusableInTouchMode="true"
-                    android:minHeight="48dp"
-                    android:text="@string/daily_limit"
-                    android:textAlignment="center"
-                    android:textColor="#0C7489"
-                    android:textSize="18sp" />
-
-            </RelativeLayout>
-        </LinearLayout>
-    <RelativeLayout android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:orientation="vertical" android:layout_weight="2">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progress_bar">
 
         <View
             android:id="@+id/greyRect"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="0dp"
+            app:layout_constraintTop_toTopOf="parent"
             android:layout_marginEnd="-1dp"
-            android:layout_marginBottom="-30dp"
             android:background="@drawable/rectangle" />
 
         <TextView
             android:id="@+id/myAccount"
-            android:layout_width="119dp"
-            android:layout_height="35dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
             android:fontFamily="sans-serif"
             android:text="@string/my_accounts"
@@ -97,43 +123,41 @@
             android:id="@+id/addButton"
             android:layout_width="53dp"
             android:layout_height="21dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="167dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="32dp"
             android:background="@drawable/button_background"
             android:text="@string/plus"
             android:textColor="@android:color/white"
             app:backgroundTint="@null"
-            tools:ignore="TouchTargetSizeCheck" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/addButton"
-            android:layout_alignBottom="@+id/addButton"
-            android:layout_marginEnd="17dp"
-            android:layout_marginBottom="0dp"
+            app:layout_constraintTop_toTopOf="@id/addButton"
+            app:layout_constraintEnd_toEndOf="@id/addButton"
+            app:layout_constraintStart_toStartOf="@id/addButton"
+            app:layout_constraintBottom_toBottomOf="@id/addButton"
             android:text="@string/plus"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:translationZ="90dp" />
 
-        <!--        Scroll view here-->
-
         <androidx.recyclerview.widget.RecyclerView
+            app:layout_constraintTop_toBottomOf="@id/addButton"
             android:id="@+id/bank_accounts"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/myAccount"
-            android:layout_alignParentBottom="true"
-           >
+            android:layout_height="0dp"
+            android:layout_below="@+id/myAccount">
 
         </androidx.recyclerview.widget.RecyclerView>
 
 
-    </RelativeLayout>
-</LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

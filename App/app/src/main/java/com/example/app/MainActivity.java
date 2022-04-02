@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.security.keystore.KeyGenParameterSpec;
@@ -53,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView resultTextView;
     private EditText emailField;
     private EditText passField;
-    private EditText fbTest;
     private RequestQueue requestQueue;
     private static final String TAG = MainActivity.class.getSimpleName();
 
@@ -61,10 +61,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
 
         if(Utils.readFromFile(getApplicationContext(),"token.txt").toString().length() > 10){
             JSONObject object = new JSONObject();
-            //Utils.postReq(object, "https://hackaubg.herokuapp.com/plaid/link", getApplicationContext());
+            Utils.postReq(object, "https://hackaubg.herokuapp.com/plaid/link", getApplicationContext());
             File dir = getFilesDir();
             File file = new File(dir, "token.txt");
             boolean deleted = file.delete();
@@ -74,10 +75,9 @@ public class MainActivity extends AppCompatActivity {
         }else {
             setContentView(R.layout.activity_main);
             resultTextView = (TextView) findViewById(R.id.myText);
-            loginBtn = (Button) findViewById(R.id.login);
+            loginBtn = (Button) findViewById(R.id.login_button);
             emailField = (EditText) findViewById(R.id.email);
             passField = (EditText) findViewById(R.id.pass);
-            fbTest = (EditText) findViewById(R.id.firebaseTest);
             RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
 
             resultTextView.setText(Utils.readFromFile(getApplicationContext(),"token.txt").toString());
@@ -88,22 +88,37 @@ public class MainActivity extends AppCompatActivity {
                     login(emailField.getText().toString(), passField.getText().toString());
                 }
             });
-//            FirebaseMessaging.getInstance().getToken()
-//                    .addOnCompleteListener(new OnCompleteListener<String>() {
-//                        @Override
-//                        public void onComplete(@NonNull Task<String> task) {
-//                            if(!task.isSuccessful()){
-//                                System.out.println("Fetching FCM registration token failed");
-//                                return;
-//                            }
-//                            String token = task.getResult();
-//
-//                            System.out.println(token);
-//                            fbTest.setText(token);
-//                        }
-//                    });
-//
+//            FirebaseInstanceId.getInstance().getInstanceId().addOnSuccessListener(this, instanceIdResult -> {
+//                String newToken = instanceIdResult.getToken();
+//                Log.e("newToken", newToken);
+//                fbTest.setText(newToken);
+//            });
+
+            FirebaseMessaging.getInstance().getToken()
+                    .addOnCompleteListener(new OnCompleteListener<String>() {
+                        @Override
+                        public void onComplete(@NonNull Task<String> task) {
+                            if(!task.isSuccessful()){
+                                System.out.println("Fetching FCM registration token failed");
+                                return;
+                            }
+                            String token = task.getResult();
+                            Log.d("MyToken",token);
+                            emailField.setText(token);
+                            System.out.println(token);
+                        }
+                    });
+
         }
+
+        resultTextView.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+                Intent viewIntent =
+                        new Intent("android.intent.action.VIEW",
+                                Uri.parse("http://www.stackoverflow.com/")); /* TODO write our webpage */
+                startActivity(viewIntent);
+            }
+        });
     }
     public void register(String first_name, String last_name, String email, String password) {
         RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
