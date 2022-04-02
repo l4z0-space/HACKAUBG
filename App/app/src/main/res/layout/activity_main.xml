@@ -7,48 +7,66 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:background="#00CC99">
 
-        <TextView
-            android:id="@+id/myText"
-            android:layout_width="wrap_content"
+
+        <View
+            android:id="@+id/bk1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="TextView"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginBottom="-30dp"
+            android:background="@drawable/background" />
 
         <EditText
             android:id="@+id/email"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="i@i.com" />
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="18dp"
+            android:background="#fff"
+            android:text="i@i.com"
+            android:padding="8dp" />
 
         <EditText
             android:id="@+id/pass"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
             android:inputType="textPassword"
-            android:text="test123" />
+            android:padding="8dp"
+            android:background="#fff"
+            android:text="test123"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/email" />
 
         <Button
             android:id="@+id/login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Login" />
-
-        <EditText
-            android:id="@+id/firebaseTest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="Login"
+            android:textColor="#00CC99"
+            android:layout_below="@+id/pass"
+            android:layout_marginTop="17dp"
+            android:layout_alignStart="@+id/pass"
+            android:layout_alignEnd="@+id/pass" />
 
-    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/myText"
+            android:textColor="#fff"
+            android:text="Not a member?Sign up now"
+            android:layout_below="@+id/login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp" />
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
