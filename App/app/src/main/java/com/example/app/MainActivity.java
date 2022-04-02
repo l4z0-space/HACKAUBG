@@ -1,6 +1,7 @@
 package com.example.app;
 
-
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
@@ -29,9 +30,14 @@ public class MainActivity extends AppCompatActivity {
     private TextView resultTextView;
     private EditText emailField;
 
-    private
-    RequestQueue requestQueue;
+    private RequestQueue requestQueue;
     private static final String TAG = MainActivity.class.getSimpleName();
+
+    private AlertDialog.Builder dialogBuilder;
+    private AlertDialog dialog;
+    private EditText limit;
+    private Button limit_set;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -101,6 +107,28 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         requestQueue.add(jsonObjectRequest);
+
+        TextView addButton = (TextView)findViewById(R.id.addButton);
+        addButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO redirect to website
+            }
+        });
+
+        TextView dailyLimit = (TextView)findViewById(R.id.dailyLimit);
+        dailyLimit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO change daily limit
+            }
+        });
+
+    }
+
+    public void createLimitDialog() {
+        dialogBuilder = new AlertDialog.Builder((this));
+        final View limitPopUp = getLayoutInflater().inflate(R.layout.popup, null);
     }
     // Get Request For JSONObject
     public void getUsers(){

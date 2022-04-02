@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/VukadinoviM/Documents/HACKAUBG/App/app/src/main/res/layout/activity_main.xml" value="0.264" />
+=======
+        <entry key="..\:/Users/georgievaga/Documents/HackAUBG4.0/HACKAUBG/App/app/src/main/res/drawable/navigation.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/georgievaga/Documents/HackAUBG4.0/HACKAUBG/App/app/src/main/res/drawable/rectangle.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/georgievaga/Documents/HackAUBG4.0/HACKAUBG/App/app/src/main/res/layout/popup.xml" value="0.268" />
+        <entry key="..\:/Users/georgievaga/Documents/HackAUBG4.0/HACKAUBG/App/app/src/main/res/layout/second_screen.xml" value="0.268" />
+        <entry key="..\:/Users/georgievaga/Documents/HackAUBG4.0/HACKAUBG/App/app/src/main/res/menu/bottom_bar_app.xml" value="0.2546875" />
+>>>>>>> 886846b (Adding second and pop-up screen)
       </map>
     </option>
   </component>
@@ -12,5 +20,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.268" />
+      </ProjectState>
+    </option>
   </component>
 </project>
