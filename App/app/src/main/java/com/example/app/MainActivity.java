@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
@@ -47,24 +48,21 @@ public class MainActivity extends AppCompatActivity {
     private Button loginBtn;
     private TextView resultTextView;
     private EditText emailField;
+    private EditText passField;
 
     private RequestQueue requestQueue;
     private static final String TAG = MainActivity.class.getSimpleName();
-
-    private AlertDialog.Builder dialogBuilder;
-    private AlertDialog dialog;
-    private EditText limit;
-    private Button limit_set;
-
-
-    private EditText passField;
 
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if(readFromFile(getApplicationContext()).toString().length() > 10){
-            Toast.makeText(this, "ses", Toast.LENGTH_SHORT).show();
+//            File dir = getFilesDir();
+//            File file = new File(dir, "token.txt");
+//            boolean deleted = file.delete();
+            Intent menuIntent = new Intent(this, SecondScreen.class);
+            startActivity(menuIntent);
         }else {
             setContentView(R.layout.activity_main);
             resultTextView = (TextView) findViewById(R.id.myText);
@@ -82,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
                     login(emailField.getText().toString(), passField.getText().toString());
                 }
             });
+
         }
     }
     public void register(String first_name, String last_name, String email, String password) {
@@ -129,8 +128,10 @@ public class MainActivity extends AppCompatActivity {
                         resultTextView.setText("String Response : "+ response.toString());
                         try {
                             Object accessToken = response.get("token");
-                            resultTextView.setText("String Response : "+ accessToken.toString());
+                            resultTextView.setText("Success");
                             writeToFile(accessToken.toString(),getApplicationContext());
+                            Intent menuIntent = new Intent(getApplicationContext(), SecondScreen.class);
+                            startActivity(menuIntent);
                         }catch(Exception e){
                             Toast.makeText(MainActivity.this, "No Token", Toast.LENGTH_SHORT).show();
                         }
@@ -143,27 +144,6 @@ public class MainActivity extends AppCompatActivity {
         });
         requestQueue.add(jsonObjectRequest);
 
-        TextView addButton = (TextView)findViewById(R.id.addButton);
-        addButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // TODO redirect to website
-            }
-        });
-
-        TextView dailyLimit = (TextView)findViewById(R.id.dailyLimit);
-        dailyLimit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // TODO change daily limit
-            }
-        });
-
-    }
-
-    public void createLimitDialog() {
-        dialogBuilder = new AlertDialog.Builder((this));
-        final View limitPopUp = getLayoutInflater().inflate(R.layout.popup, null);
     }
     // Get Request For JSONObject
     public void getUsers(){
