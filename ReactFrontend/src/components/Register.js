@@ -1,4 +1,8 @@
 import React, { useState } from 'react'
+import { handle_login, handle_register } from '../services'
+import { useHistory } from 'react-router-dom'
+import { useRecoilState } from 'recoil'
+import { error_message, success_message, user_state } from '../global_state'
 
 const Register = () => {
 
@@ -7,10 +11,36 @@ const Register = () => {
     const [email, set_email] = useState('')
     const [password, set_password] = useState('')
 
-    const handle_submit = (e) => {
+    const [user, set_user] = useRecoilState(user_state)
+    const [success, set_success] = useRecoilState(success_message)
+    const [error, set_error] = useRecoilState(error_message)
+
+    const history = useHistory()
+
+    const handle_submit = async (e) => {
         e.preventDefault()
-        const data = {email, passsword}
-        console.log(data);
+        const data = {first_name, last_name, email, password}
+        try{
+            const response = await handle_register(data);
+            // console.log(response);
+
+            // authenticate the user
+            const loginresponse = await handle_login({email, password});
+            set_user(loginresponse);
+            
+            history.push('/')
+            set_success('Successfully registered!')
+            setTimeout(() => {
+                set_success('')
+              }, 4000);
+
+        }catch(err){
+            console.log(err);
+            set_error('User with this email already exists!')
+            setTimeout(() => {
+                set_error('')
+            }, 4000);
+        }
     }
 
     return(

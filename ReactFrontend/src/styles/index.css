@@ -28,6 +28,23 @@ body{
     border-radius: 80px;
 }
 
+.institution-list-item{
+    background: #e8eeee;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 15px;
+    font-weight: 200 !important;
+}
+
+.institution-list-item img{
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.text-primary{
+    color: #0C7489 !important;
+}
 /* #root{
     margin: 20px;
 } */

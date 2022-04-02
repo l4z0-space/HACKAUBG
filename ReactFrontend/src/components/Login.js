@@ -1,15 +1,45 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import { useRecoilState } from 'recoil'
+import { error_message, success_message, user_state } from '../global_state'
+import { handle_login } from '../services'
+import { useHistory } from 'react-router-dom'
 
 const Login = () => {
 
     const [email, set_email] = useState('')
     const [password, set_password] = useState('')
+    const history = useHistory()
+    const [user, set_user] = useRecoilState(user_state)
 
-    const handle_submit = (e) => {
+    const [success, set_success] = useRecoilState(success_message)
+    const [error, set_error] = useRecoilState(error_message)
+
+    const handle_submit = async (e) => {
         e.preventDefault()
         const data = {email, password}
-        console.log(data);
+        try{
+            const response = await handle_login(data);
+            // console.log(response);
+            set_user(response);
+            history.push('/')
+            set_success('Successfully logged in!')
+            setTimeout(() => {
+                set_success('')
+            }, 4000);
+        }catch(err){
+            console.log(err);
+            set_error('Incorrect credentials!')
+            setTimeout(() => {
+                set_error('')
+            }, 4000);
+        }
     }
+
+    useEffect(()=>{
+        if(user){
+            history.push('/')
+        }
+    },[user])
 
     return(
         <div className='d-flex flex-column h-100'>

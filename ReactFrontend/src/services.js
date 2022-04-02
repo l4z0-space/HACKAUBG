@@ -1,7 +1,6 @@
 import axios from "axios"
-import base_url from "./util"
 
-const base_url ='/api'
+const base_url ='http://localhost:9000/api'
 
 
 const get_token = () => {
@@ -10,14 +9,11 @@ const get_token = () => {
 }
 
 export const handle_login = async (payload) => {
-  payload = {
-    email: payload.email.value,
-    password: payload.password.value
-  }
+
   const {data} = await axios.post(`${base_url}/login`, payload)
   return data
 }
-  
+
 export const handle_register = async (payload) => {
   const {data} = await axios.post(`${base_url}/users`, payload)
   return data
