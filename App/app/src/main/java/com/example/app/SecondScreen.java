@@ -2,12 +2,15 @@ package com.example.app;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TableLayout;
@@ -33,18 +36,21 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 public class SecondScreen extends AppCompatActivity implements PopupFragment.Communicator {
 
     private AlertDialog.Builder dialogBuilder;
     private AlertDialog dialog;
-    private Button limit_set;
-    private TextView addButton;
-    private TextView changeLimit;
+    private ImageButton addButton;
+    private TextView date;
     private RecyclerView rv;
 
     private float progress = 0;
@@ -59,8 +65,6 @@ public class SecondScreen extends AppCompatActivity implements PopupFragment.Com
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_screen);
         getSupportActionBar().hide();
-        //addButton = (TextView)findViewById(R.id.addButton);
-//        addButton.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.white));
 
         progressBar = findViewById(R.id.progress_bar);
         textViewProgress = findViewById(R.id.balance);
@@ -79,6 +83,7 @@ public class SecondScreen extends AppCompatActivity implements PopupFragment.Com
         rv = findViewById(R.id.bank_accounts);
         rv.setAdapter(adapter);
         rv.setLayoutManager(new LinearLayoutManager(this, RecyclerView.VERTICAL, false));
+
         getMoney();
         PopupFragment popupFragment = new PopupFragment(this);
         textViewProgress.setOnClickListener(new View.OnClickListener() {
@@ -88,26 +93,24 @@ public class SecondScreen extends AppCompatActivity implements PopupFragment.Com
             }
         });
 
-//
-//        addButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                // TODO redirect to website
-//            }
-//        });
-//
-//        TextView dailyLimit = (TextView)findViewById(R.id.dailyLimit);
-//        dailyLimit.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                // TODO change daily limit
-//            }
-//        });
+        Date c = Calendar.getInstance().getTime();
+        SimpleDateFormat df = new SimpleDateFormat("dd-MMM-yyyy", Locale.getDefault());
+        String formattedDate = df.format(c);
+        date = findViewById(R.id.date);
+        date.setText(formattedDate);
+
+        addButton = findViewById(R.id.addButton);
+
+        addButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+                Intent viewIntent =
+                        new Intent("android.intent.action.VIEW",
+                                Uri.parse("http://www.stackoverflow.com/")); /* TODO write our webpage */
+                startActivity(viewIntent);
+            }
+        });
     };
-    public void createLimitDialog() {
-        dialogBuilder = new AlertDialog.Builder((this));
-        final View limitPopUp = getLayoutInflater().inflate(R.layout.popup, null);
-    }
+
 
     public  void getMoney(){
         Context context = getApplicationContext();
@@ -154,6 +157,12 @@ public class SecondScreen extends AppCompatActivity implements PopupFragment.Com
     @Override
     public void message(String data) {
         textViewProgress.setText(data);
+
+        /*
+        TODO  1. db ----> keep users daily budget
+        2. backend ----> calculate curr_balance
+
+         */
 
     }
 }
