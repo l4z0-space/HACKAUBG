@@ -90,12 +90,12 @@
             android:id="@+id/login_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/pass"
-            android:layout_marginTop="16dp"
-            android:backgroundTint="#0C7489"
-            android:text="Log in" />
+            android:layout_below="@+id/pass"
+            android:layout_alignStart="@+id/pass"
+            android:layout_alignEnd="@+id/pass"
+            android:layout_marginTop="17dp"
+            android:text="Login"
+            android:textColor="#00CC99" />
 
         <TextView
             android:layout_width="wrap_content"
