@@ -6,4 +6,10 @@
     <string name="my_accounts">My Accounts</string>
     <string name="new_bankAccount">Bank Account Name</string>
     <string name="plus">+</string>
+    <string name="money_url">https://hackaubg.herokuapp.com/api/progressnumber</string>
+    <string name="dollar">$</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_new_daily_budget">Enter new daily budget</string>
+    <string name="save">Save</string>
 </resources>

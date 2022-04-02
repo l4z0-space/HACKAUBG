@@ -63,10 +63,10 @@ public class MainActivity extends AppCompatActivity {
 
         if(Utils.readFromFile(getApplicationContext(),"token.txt").toString().length() > 10){
             JSONObject object = new JSONObject();
-            Utils.postReq(object, "https://hackaubg.herokuapp.com/plaid/link", getApplicationContext());
-            File dir = getFilesDir();
-            File file = new File(dir, "token.txt");
-            boolean deleted = file.delete();
+            //Utils.postReq(object, "https://hackaubg.herokuapp.com/plaid/link", getApplicationContext());
+//            File dir = getFilesDir();
+//            File file = new File(dir, "token.txt");
+//            boolean deleted = file.delete();
             Intent menuIntent = new Intent(this, SecondScreen.class);
             startActivity(menuIntent);
 
