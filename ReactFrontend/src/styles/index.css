@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+.bg-dark-img{
+    background: url('https://raw.githubusercontent.com/l4z0-space/cdn/0bf6d9ac44a85c6617828d91ce3d1a7b256a2fc6/bgdark.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.form-control{
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(148, 143, 143, 0.25);
+    border-radius: 80px;
+}
+
+.btn-primary{
+    background: #0C7489 !important;
+}
+
+.btn-primary:hover{
+    background: #0C7489 !important;
+}
+
+.btn{
+    border-radius: 80px;
+}
+
+/* #root{
+    margin: 20px;
+} */
