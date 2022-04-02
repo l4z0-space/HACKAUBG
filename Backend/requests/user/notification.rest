@@ -1,0 +1,17 @@
+POST https://fcm.googleapis.com/fcm/send
+Content-Type: application/json
+Authorization: key=AAAAcJAuLcg:APA91bFxyInuVhOKMzURLpw_LU4CJhvXg7hazbKvpYfT9SvR-j9k2ytl4QRC9SmuSQiGq6IsBiNnIY00hyJYf4KBGCxBLL0pnQJ8HNK-6FrUQwIj3uaWdVHL20cE3mGT7XCBe6V7bMAG
+
+{
+ "to" : "fZdxRN8zTdWxbHXSthSCpu:APA91bEpMxQrV5Hpeq3P1luyvyoTNtcXrdeapNNJsZdR9TSX05U56ZhmEi2oiBFDkQEx3_G-RH7NuZT-uW-NI5F0m3zTUCazWeXDz9mqDaG3FHIyYfc1sqmbRT79h9bV7LJFbWwlUbGM",
+ "collapse_key" : "type_a",
+ "notification" : {
+     "body" : "MILLOSHHHHH WHATSAPPP MANNNNN",
+     "title": "THAT SHIT IS WORKING"
+ },
+ "data" : {
+     "body" : "Body of Your Notification in Data",
+     "title": "Title of Your Notification in Title",
+
+ }
+}
