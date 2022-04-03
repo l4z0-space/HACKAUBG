@@ -42,31 +42,45 @@ const Login = () => {
     },[user])
 
     return(
-        <div className='d-flex flex-column h-100'>
+        <div className='d-flex flex-column '>
 
-            <div className='bg-dark-img w-100 h-25'>
-        
-            </div>
+                <div className='text-center mb-4 bg-dark-img w-100 align-items-center'>
+                    <img 
+                        width={200}
+                        src='https://github.com/l4z0-space/cdn/blob/master/logowhite.png?raw=true' 
+                    />
+                    <br/>
+                    
+                    <img
+                        src='https://raw.githubusercontent.com/l4z0-space/cdn/a48d869cd31fba2948e144eb5811bc6332b361a8/welcome.svg'
+                    />
+                    <br/>
+                    <p className='text-white mt-4 fw-300'>
+                        Create an account to join in our platform.
+                    </p>
+                </div>
             
             <br/>
             <br/>
             <br/>
             <div className='h-100 mt-4 m-auto'>
-                <form className='w-100' onSubmit={handle_submit}>
+                
+                <form style={{width:400}} onSubmit={handle_submit}>
                     
-                    <p className='h3  text-center'>
-                        Login
+
+                    <p className='h3 text-primary text-center mb-4'>
+                        LOG IN
                     </p>
 
                     <input 
-                        className='form-control '
+                        className='form-control'
                         type='text'
                         placeholder='Email'
                         value={email}
                         onChange={(e)=>set_email(e.target.value)}
                     />
                     <input 
-                        className='form-control w-100 mt-3'
+                        className='form-control mt-3'
                         type='password'
                         placeholder='Password'
                         value={password}
@@ -77,6 +91,11 @@ const Login = () => {
                         <button className='btn btn-primary w-50'> Login </button>
                     </div>
                 </form>
+                <br/>
+                <br/>
+                <div className='text-center mt-4'>
+                    <img width={150} src='https://github.com/l4z0-space/cdn/blob/master/Picture1.png?raw=true' />
+                </div>
             </div>
             
         </div>

@@ -17,11 +17,10 @@ const App = () => {
     const user = useRecoilValue(user_state)
 
     return (
-       <div className='p-2'>
+       <div>
            {user && <Logout/>} 
-
-           {success && <SuccessMessage  message={success}/> }
-           {error && <ErrorMessage  message={error}/> }
+           {success ? <SuccessMessage  message={success}/> :null }
+           {error ? <ErrorMessage  message={error}/> :null }
            {user ?  <AuthRoutes/> : <NoAuthRoutes/>}
             
         </div>

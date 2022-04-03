@@ -46,19 +46,28 @@ const Register = () => {
     return(
         <div className='d-flex flex-column h-100'>
 
-            <div className='bg-dark-img w-100 h-25'>
-        
-            </div>
-            
-            <br/>
-            <br/>
-            <br/>
-            <div className='h-100 mt-4 m-auto'>
-                <form className='w-100' onSubmit={handle_submit}>
+            <div className='text-center mb-4 bg-dark-img w-100 align-items-center'>
+                    <img 
+                        width={200}
+                        src='https://github.com/l4z0-space/cdn/blob/master/logowhite.png?raw=true' 
+                    />
+                    <br/>
                     
-                    <p className='h4 text-center'>
-                    Register
+                    <img
+                        src='https://raw.githubusercontent.com/l4z0-space/cdn/a48d869cd31fba2948e144eb5811bc6332b361a8/welcome.svg'
+                    />
+                    <br/>
+                    <p className='text-white mt-4 fw-300'>
+                        Create an account to join in our platform.
                     </p>
+                </div>
+            
+            <div className='h-100 mt-4 m-auto'>
+                <form style={{width:400}} onSubmit={handle_submit}>
+                    
+                <p className='h3 text-primary text-center mb-4'>
+                    REGISTER
+                </p>
 
                     <input 
                         className='form-control  mt-3 '
@@ -97,6 +106,12 @@ const Register = () => {
                         <button className='btn btn-primary w-50'> Register </button>
                     </div>
                 </form>
+
+                <br/>
+                <br/>
+                <div className='text-center mt-4'>
+                    <img width={150} src='https://github.com/l4z0-space/cdn/blob/master/Picture1.png?raw=true' />
+                </div>
             </div>
             
         </div>

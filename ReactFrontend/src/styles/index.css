@@ -2,9 +2,8 @@ body{
     font-family: 'Roboto', sans-serif !important;
 }
 
-
 .bg-dark-img{
-    background: url('https://raw.githubusercontent.com/l4z0-space/cdn/0bf6d9ac44a85c6617828d91ce3d1a7b256a2fc6/bgdark.svg');
+    background: url('https://raw.githubusercontent.com/l4z0-space/cdn/e56d3938aec5b34d81e04c8117bee6ce3278c982/login.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -14,6 +13,11 @@ body{
     background: #FFFFFF;
     box-shadow: inset 0px 4px 4px rgba(148, 143, 143, 0.25);
     border-radius: 80px;
+    padding: 10px;
+}
+
+.fw-300{
+    font-weight: 300;
 }
 
 .btn-primary{
