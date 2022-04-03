@@ -1,6 +1,9 @@
 # HACKAUBG
 
 endpoints (deployed to heroku)
+
+WEB: https://upsave1.herokuapp.com/
+
 API: https://hackaubg.herokuapp.com/api/
 
 Register \
