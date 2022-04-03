@@ -1,26 +1,25 @@
 package com.example.app;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
+import android.app.Notification;
+import android.app.PendingIntent;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.security.keystore.KeyGenParameterSpec;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RemoteViews;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AppCompatActivity;
-
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -37,16 +36,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.nio.charset.StandardCharsets;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -54,8 +44,10 @@ public class MainActivity extends AppCompatActivity {
     private TextView resultTextView;
     private EditText emailField;
     private EditText passField;
+    private TextView sign_up;
     private RequestQueue requestQueue;
     private static final String TAG = MainActivity.class.getSimpleName();
+
 
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
@@ -104,20 +96,22 @@ public class MainActivity extends AppCompatActivity {
                             }
                             String token = task.getResult();
                             Log.d("MyToken",token);
-                            emailField.setText(token);
-                            System.out.println(token);
+                            //emailField.setText(token);
                         }
                     });
 
         }
 
-        resultTextView.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View arg0) {
-                Intent viewIntent =
-                        new Intent("android.intent.action.VIEW",
-                                Uri.parse("http://www.stackoverflow.com/")); /* TODO write our webpage */
-                startActivity(viewIntent);
+        sign_up = findViewById(R.id.sign_up);
+
+        sign_up.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Uri uri = Uri.parse("https://upsave1.herokuapp.com/register");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
+
         });
     }
     public void register(String first_name, String last_name, String email, String password) {
@@ -207,5 +201,6 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
 }
 

@@ -69,7 +69,7 @@
             android:background="@drawable/rounded_corners"
             android:padding="8dp"
             android:hint="Email"
-            android:text="i@i.com" />
+            android:text="t@s.com" />
 
         <EditText
             android:id="@+id/pass"
@@ -84,7 +84,7 @@
             android:padding="8dp"
             android:inputType="textPassword"
             android:hint="Password"
-            android:text="test123" />
+            android:text="t@s.com" />
 
         <Button
             android:id="@+id/login_button"
@@ -101,6 +101,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/myText"
+            android:textColor="#fff"
+            app:layout_constraintTop_toBottomOf="@id/login_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_up"
             android:textColor="#fff"
             android:clickable="true"
             android:focusable="true"

@@ -2,7 +2,7 @@
     <string name="app_name">App</string>
     <string name="register_url">"https://hackaubg.herokuapp.com/api/users"</string>
     <string name="login_url">"https://hackaubg.herokuapp.com/api/login"</string>
-    <string name="daily_limit">Daily Limit</string>
+    <string name="daily_budget">Daily Budget</string>
     <string name="my_accounts">My Accounts</string>
     <string name="new_bankAccount">Bank Account Name</string>
     <string name="plus">+</string>
