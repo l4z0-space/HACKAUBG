@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken')
 const userRouter = require('express').Router()
 const { request, response } = require('express')
 const User = require('../models/user')
+const { get_user_from_request } = require('./utils');
 
 userRouter.post('/api/users', async (request, response) => {
   // expects: {first_name, last_name, email, password}
@@ -25,7 +26,13 @@ userRouter.post('/api/users', async (request, response) => {
 userRouter.get('/api/users', async (request, response) => { 
   // List of all users
   const allUsers = await User.find({}).populate('blogs',{ title:1 })
-  response.json(allUsers)
+  response.status(200).json(allUsers)
+})
+
+userRouter.get('/api/progressnumber', async(request, response)=>{
+  response.status(200).json({
+    progress_number: 84
+  })
 })
 
 userRouter.post('/api/login', async (request, response) => {
@@ -64,6 +71,21 @@ userRouter.post('/api/login', async (request, response) => {
   
 })
 
+userRouter.post('/api/user-token', async (request, response) => {
+  // Expects: {email, password}
+
+  const curr_user = await get_user_from_request(request)
+  if (!curr_user) return response.status(401).json({ error:'missing or invalid token' })
+    
+  const phone_token = request.body.token
+
+  curr_user.phone_token = phone_token;
+  await curr_user.save();
+
+
+  response.status(203).json({})
+
+})
 
 
 

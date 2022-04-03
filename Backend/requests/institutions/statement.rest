@@ -1,0 +1,4 @@
+GET http://localhost:9000/api/statement-report
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaXJzdF9uYW1lIjoidCIsImxhc3RfbmFtZSI6InMiLCJlbWFpbCI6InRAcy5jb20iLCJpZCI6IjYyNDgzNzI5MThhNWYxMjJiOGE0Y2E3NCIsImlhdCI6MTY0ODkwODQ4OX0.dxyRncvPeHYf6facwDStknC051JccWGQJCjoDbpFz2Q
+
