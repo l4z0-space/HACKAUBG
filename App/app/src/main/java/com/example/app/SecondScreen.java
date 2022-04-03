@@ -158,11 +158,6 @@ public class SecondScreen extends AppCompatActivity implements PopupFragment.Com
     public void message(String data) {
         textViewProgress.setText(data);
 
-        /*
-        TODO  1. db ----> keep users daily budget
-        2. backend ----> calculate curr_balance
-
-         */
 
     }
 }
