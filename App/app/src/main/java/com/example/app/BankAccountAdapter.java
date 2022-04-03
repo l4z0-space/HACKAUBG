@@ -33,6 +33,7 @@ public class BankAccountAdapter extends RecyclerView.Adapter<BankAccountAdapter.
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         BankAccount ba = list.get(position);
         holder.tv.setText(ba.name);
+        holder.tv1.setText(ba.balance);
         Glide.with(holder.itemView).load(ba.image_url).into(holder.iv);
     }
 
@@ -43,10 +44,12 @@ public class BankAccountAdapter extends RecyclerView.Adapter<BankAccountAdapter.
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView tv;
+        TextView tv1;
         ImageView iv;
         ViewHolder(View view) {
             super(view);
             tv = view.findViewById(R.id.newTaskText);
+            tv1 = view.findViewById(R.id.account_balance);
             iv = view.findViewById(R.id.imageView);
         }
     }
