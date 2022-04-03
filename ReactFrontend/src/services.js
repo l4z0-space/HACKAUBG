@@ -1,7 +1,7 @@
 import axios from "axios"
 
-// const base_url ='http://localhost:9000/api'
-const base_url ='https://hackaubg.herokuapp.com/api'
+const base_url ='http://localhost:9000/api'
+// const base_url ='https://hackaubg.herokuapp.com/api'
 
 
 const get_token = () => {
@@ -50,5 +50,13 @@ export const get_institutions = async () => {
     headers: { authorization: get_token()},
   }
   const {data} = await axios.get(`${base_url}/institutions`, config)
+  return data
+}
+
+export const get_transactions = async () => {
+  const config = {
+    headers: { authorization: get_token()},
+  }
+  const {data} = await axios.get(`${base_url}/statement-report`, config)
   return data
 }

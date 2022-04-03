@@ -51,12 +51,9 @@ const Login = () => {
                     />
                     <br/>
                     
-                    <img
-                        src='https://raw.githubusercontent.com/l4z0-space/cdn/a48d869cd31fba2948e144eb5811bc6332b361a8/welcome.svg'
-                    />
-                    <br/>
+                    <p className='h2 text-white'>HELLO FRIEND!</p>
                     <p className='text-white mt-4 fw-300'>
-                        Create an account to join in our platform.
+                        Enjoy your spending and keep using us!
                     </p>
                 </div>
             
@@ -87,9 +84,12 @@ const Login = () => {
                         onChange={(e)=>set_password(e.target.value)}
                     />
                     <div className='text-center mt-3'>
-            
                         <button className='btn btn-primary w-50'> Login </button>
                     </div>
+                    <br/>
+                    <a href='/register' >Create new account?</a>
+
+
                 </form>
                 <br/>
                 <br/>

@@ -1,0 +1,4502 @@
+[
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2022-01-01",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-12-31",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-21",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-12-19",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-16",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Chase"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-12-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-12-06",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-12-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-12-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-12-04",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Chase"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-12-04",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-12-03",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-12-03",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-12-02",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-12-01",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-21",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-11-19",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-16",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Chase"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-11-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-11-06",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-11-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-11-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-11-04",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Chase"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-11-04",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-11-03",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-11-03",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-11-02",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-11-01",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-22",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-10-20",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-17",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Chase"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-10-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-10-07",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-10-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-10-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-10-05",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Chase"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-10-05",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-10-04",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-10-04",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-10-03",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-10-02",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-22",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-09-20",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-17",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Chase"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-09-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-09-07",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-09-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-09-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-09-05",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Chase"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-09-05",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-09-04",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-09-04",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-09-03",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-09-02",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-23",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-08-21",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-18",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Chase"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-08-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-08-08",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-08-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-08-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-08-06",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Chase"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-08-06",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-08-05",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-08-05",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-08-04",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-08-03",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-24",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-07-22",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-19",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Chase"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-07-09",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-07-09",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-07-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-07-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-07-07",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Chase"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-07-07",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-07-06",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-07-06",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-07-05",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-07-04",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-06-24",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-06-22",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2022-01-01",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-12-31",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-21",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-12-19",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-16",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-12-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-12-06",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-12-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-12-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-12-04",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-12-04",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-12-03",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-12-03",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-12-02",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-12-01",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-21",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-11-19",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-16",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-11-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-11-06",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-11-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-11-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-11-04",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-11-04",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-11-03",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-11-03",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-11-02",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-11-01",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-22",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-10-20",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-17",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-10-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-10-07",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-10-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-10-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-10-05",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-10-05",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-10-04",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-10-04",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-10-03",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-10-02",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-22",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-09-20",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-17",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-09-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-09-07",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-09-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-09-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-09-05",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-09-05",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-09-04",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-09-04",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-09-03",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-09-02",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-23",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-08-21",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-18",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-08-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-08-08",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-08-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-08-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-08-06",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-08-06",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-08-05",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-08-05",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-08-04",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-08-03",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-24",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-07-22",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-19",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-07-09",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-07-09",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-07-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-07-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-07-07",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-07-07",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-07-06",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-07-06",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-07-05",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-07-04",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-06-24",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-06-22",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Wells Fargo"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2022-01-01",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-12-31",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-21",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-12-19",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-16",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-12-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-12-06",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-12-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-12-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-12-04",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-12-04",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-12-03",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-12-03",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-12-02",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-12-01",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-21",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-11-19",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-16",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-11-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-11-06",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-11-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-11-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-11-04",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-11-04",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-11-03",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-11-03",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-11-02",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-11-01",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-22",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-10-20",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-17",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-10-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-10-07",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-10-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-10-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-10-05",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-10-05",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-10-04",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-10-04",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-10-03",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-10-02",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-22",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-09-20",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-17",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-09-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-09-07",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-09-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-09-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-09-05",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-09-05",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-09-04",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-09-04",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-09-03",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-09-02",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-23",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-08-21",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-18",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-08-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-08-08",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-08-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-08-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-08-06",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-08-06",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-08-05",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-08-05",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-08-04",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-08-03",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-24",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-07-22",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-19",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-07-09",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-07-09",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-07-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-07-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-07-07",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-07-07",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-07-06",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-07-06",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-07-05",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-07-04",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-06-24",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-06-22",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Regions Bank"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2022-01-01",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-12-31",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-21",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-12-19",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-16",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-12-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-12-06",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-12-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-12-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-12-04",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-12-04",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-12-03",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-12-03",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-12-02",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-12-01",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-21",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-11-19",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-16",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-11-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-11-06",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-11-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-11-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-11-04",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-11-04",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-11-03",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-11-03",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-11-02",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-11-01",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-22",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-10-20",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-17",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-10-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-10-07",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-10-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-10-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-10-05",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-10-05",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-10-04",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-10-04",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-10-03",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-10-02",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-22",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-09-20",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-17",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-09-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-09-07",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-09-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-09-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-09-05",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-09-05",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-09-04",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-09-04",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-09-03",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-09-02",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-23",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-08-21",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-18",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-08-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-08-08",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-08-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-08-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-08-06",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-08-06",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-08-05",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-08-05",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-08-04",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-08-03",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-24",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-07-22",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-19",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-07-09",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-07-09",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-07-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-07-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-07-07",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-07-07",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-07-06",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-07-06",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-07-05",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-07-04",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-06-24",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-06-22",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Rockland Federal Credit Union"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2022-01-01",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-12-31",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-21",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-12-19",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-16",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-12-15",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Chase"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-12-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-12-06",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-12-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-12-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-12-04",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Chase"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-12-04",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-12-03",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-12-03",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-12-02",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-12-01",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-21",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-11-19",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-16",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-11-15",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Chase"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-11-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-11-06",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-11-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-11-05",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-11-04",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Chase"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-11-04",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-11-03",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-11-03",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-11-02",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-11-01",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-22",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-10-20",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-17",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-10-16",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Chase"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-10-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-10-07",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-10-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-10-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-10-05",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Chase"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-10-05",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-10-04",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-10-04",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-10-03",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-10-02",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-22",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-09-20",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-17",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-09-16",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Chase"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-09-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-09-07",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-09-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-09-06",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-09-05",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Chase"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-09-05",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-09-04",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-09-04",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-09-03",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-09-02",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-23",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-08-21",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-18",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-08-17",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Chase"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-08-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-08-08",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-08-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-08-07",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-08-06",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Chase"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-08-06",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-08-05",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-08-05",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-08-04",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-08-03",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-24",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-07-22",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-19",
+      "merchant_name": "Tectra Inc",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 2078.5,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": "KFC",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-07-18",
+      "merchant_name": "Madison Bicycle Shop",
+      "payment_channel": "in store",
+      "category": "Shops",
+      "institution": "Chase"
+    },
+    {
+      "amount": 25,
+      "currency": "USD",
+      "date": "2021-07-09",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Payment",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5.4,
+      "currency": "USD",
+      "date": "2021-07-09",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2021-07-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2021-07-08",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 78.5,
+      "currency": "USD",
+      "date": "2021-07-07",
+      "merchant_name": "Touchstone",
+      "payment_channel": "in store",
+      "category": "Recreation",
+      "institution": "Chase"
+    },
+    {
+      "amount": -500,
+      "currency": "USD",
+      "date": "2021-07-07",
+      "merchant_name": "United Airlines",
+      "payment_channel": "other",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2021-07-06",
+      "merchant_name": "McDonald's",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 4.33,
+      "currency": "USD",
+      "date": "2021-07-06",
+      "merchant_name": "Starbucks",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": 89.4,
+      "currency": "USD",
+      "date": "2021-07-05",
+      "merchant_name": "Sparkfun",
+      "payment_channel": "in store",
+      "category": "Food and Drink",
+      "institution": "Chase"
+    },
+    {
+      "amount": -4.22,
+      "currency": "USD",
+      "date": "2021-07-04",
+      "merchant_name": null,
+      "payment_channel": "other",
+      "category": "Transfer",
+      "institution": "Chase"
+    },
+    {
+      "amount": 500,
+      "currency": "USD",
+      "date": "2021-06-24",
+      "merchant_name": "United Airlines",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    },
+    {
+      "amount": 6.33,
+      "currency": "USD",
+      "date": "2021-06-22",
+      "merchant_name": "Uber",
+      "payment_channel": "in store",
+      "category": "Travel",
+      "institution": "Chase"
+    }
+  ]

@@ -105,6 +105,8 @@ const Register = () => {
                     <div className='text-center  mt-3 '>
                         <button className='btn btn-primary w-50'> Register </button>
                     </div>
+                    <br/>
+                    <a href='/login' >Login instead?</a>
                 </form>
 
                 <br/>
