@@ -1,18 +1,27 @@
-# HACKAUBG
+# HACKAUBG - TEAM UPGRADE
+## Project Name: UPSave
+
+
+
+Stack: 
+
+1. Mobile App (Java, Android Studio)
+2. Web App (React, Bootstrap)
+3. Backend (ExpressJS)
+4. Database (MongoDB)
+5. Notifications to App (Firebase)
+6. Banking connection API (Plaid)
+7. Data analysis and chart generation (Python)
+8. Hosted in heroku for demo
+
+
 
 endpoints (deployed to heroku)
 
-WEB: https://upsave1.herokuapp.com/
+WEB: https://upsave1.herokuapp.com/ 
 
 API: https://hackaubg.herokuapp.com/api/
 
-Register \
-POST REQUEST TO: https://hackaubg.herokuapp.com/api/users \
-Example: [REGISTER EXAMPLE](https://github.com/l4z0-space/HACKAUBG/blob/master/Backend/requests/user/register.rest) \
 
 
-
-Login \
-POST REQUEST TO: https://hackaubg.herokuapp.com/api/login \
-Example: [LOGIN EXAMPLE](https://github.com/l4z0-space/HACKAUBG/blob/master/Backend/requests/user/login.rest) \
-
+Sample requests to the API: [EXAMPLE](https://github.com/l4z0-space/HACKAUBG/blob/master/Backend/requests)
